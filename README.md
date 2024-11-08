@@ -1,1 +1,1 @@
-A web with css and html to practice academic flows.
+Practice on Html and css, specifically on Forms, labels, select and inputs.
