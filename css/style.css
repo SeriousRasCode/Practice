@@ -67,19 +67,28 @@ audio::-webkit-media-controls-panel{
 }
 
 .profile{
+    height: 50px;
+    background-color: aliceblue;
     display: flex;
     flex-direction: row;
+    border: solid;
+    border-color: rgb(118, 40, 40);
+    border-radius: 5px;
+    border-width: 2px;
 
     #ima{
+        image-resolution: 100;
+        margin-left: 2px;
         border: solid black;
         border-radius: 100%;
         border-color: rgb(76, 26, 26);
-        border-width: 2px;
-        width: 40px;
-        height: 40px;
+        border-width: 1px;
+        width: 30px;
+        height: 30px;
         align-items: center;
         vertical-align: middle;
         align-self: center;
+        size: 100;
     }
     #det{
         align-self: center;
