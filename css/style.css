@@ -66,3 +66,26 @@ audio::-webkit-media-controls-panel{
     opacity: 0;
 }
 
+.profile{
+    display: flex;
+    flex-direction: row;
+
+    #ima{
+        border: solid black;
+        border-radius: 100%;
+        border-color: rgb(76, 26, 26);
+        border-width: 2px;
+        width: 40px;
+        height: 40px;
+        align-items: center;
+        vertical-align: middle;
+        align-self: center;
+    }
+    #det{
+        align-self: center;
+        margin-left:5px ;
+        font-size: 14pt;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
